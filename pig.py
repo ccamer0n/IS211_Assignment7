@@ -41,7 +41,7 @@ Holding scores the sum of rolls for that round. If a 1 is rolled, no points are 
                 return running_total
             else:
                 running_total += result
-                print(f"Your running total is {running_total}.")
+                print(f"Your running total for this turn is {running_total}.")
                 if running_total >= 100 or (running_total + total_score) >= 100:
                     return running_total
                 else:
